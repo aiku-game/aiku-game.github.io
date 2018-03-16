@@ -165,3 +165,12 @@ ul{
 .headset{
     margin-top:5%;
 }
+
+ #particles {
+  position: fixed;
+  width: 100%;
+  height: 250%;
+  top: 180px;
+  left: 0;
+     z-index: -999999;
+}
