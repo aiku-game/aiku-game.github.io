@@ -7,6 +7,9 @@ $('#norma-button').on('click', function() {
         document.getElementById("norma").classList.add('activate');
         document.getElementById("trevor").classList.remove('activate'); 
         document.getElementById("ray").classList.remove('activate');
+                           
+        document.getElementById("slides").classList.remove('activate');
+
 
     }
 
@@ -20,6 +23,9 @@ $('#ray-button').on('click', function() {
 else{
        document.getElementById("ray").classList.add('activate');
    document.getElementById("norma").classList.remove('activate');
+                       
+    document.getElementById("slides").classList.remove('activate');
+
    document.getElementById("trevor").classList.remove('activate');
 
 }
@@ -28,7 +34,8 @@ else{
 $('#trevor-button').on('click', function() { 
     
                     if($(document.getElementById("trevor")).hasClass('activate')) { 
-                   document.getElementById("trevor").classList.remove('activate');
+                   
+                        document.getElementById("trevor").classList.remove('activate');
             }    
 
     
@@ -36,11 +43,34 @@ $('#trevor-button').on('click', function() {
            document.getElementById("trevor").classList.add('activate');
    document.getElementById("ray").classList.remove('activate');
    document.getElementById("norma").classList.remove('activate');
+                           
+        document.getElementById("slides").classList.remove('activate');
+
 
     }
 
 
 });
+
+$('#slides-button').on('click', function() { 
+    
+                    if($(document.getElementById("slides")).hasClass('activate')) { 
+                   document.getElementById("slides").classList.remove('activate');
+            }    
+
+    
+    else{
+           document.getElementById("slides").classList.add('activate');
+   document.getElementById("ray").classList.remove('activate');
+   document.getElementById("norma").classList.remove('activate');
+           document.getElementById("trevor").classList.remove('activate');
+
+
+    }
+
+
+});
+
 
 
 
