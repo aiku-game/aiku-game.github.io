@@ -149,6 +149,7 @@ font-family: 'IBM Plex Mono', monospace;
 }
 
 .img1{
+    margin-left:2vw;
       animation: glitch1 2.5s infinite;
         animation-delay: 7s;
 
@@ -190,7 +191,7 @@ font-family: 'IBM Plex Mono', monospace;
   background: transparent;
     position: absolute;
     bottom:3vh;
-     margin: 0 auto;
+    left:45vw;
 
 }
 
@@ -481,6 +482,8 @@ img::-moz-selection {
 
 .container2 {
     position: relative;
+        width:80%;
+    margin-left: 10%;
 
 
 }
