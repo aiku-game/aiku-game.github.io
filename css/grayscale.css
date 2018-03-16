@@ -150,8 +150,8 @@ font-family: 'IBM Plex Mono', monospace;
 
 .img1{
     margin-left:2vw;
-      animation: glitch1 2.5s infinite;
-        animation-delay: 7s;
+      /*animation: glitch1 2.5s infinite;*/
+        /*animation-delay: 7s;*/
 
 
 }
@@ -302,16 +302,16 @@ img::-moz-selection {
 .img1:nth-child(2) {
   color: #67f3da;
 
-  animation: glitch2 2.5s infinite;
-        animation-delay: 7s;
+  /*animation: glitch2 2.5s infinite;
+        animation-delay: 7s;*/
 
 }
 
 .img1y:nth-child(3) {
   color: #f16f6f;
-        animation-delay: 5s;
+        /*animation-delay: 5s;
 
-  animation: glitch3 2.5s infinite;
+  animation: glitch3 2.5s infinite;*/
 }
 /*Keyframes*/
 
