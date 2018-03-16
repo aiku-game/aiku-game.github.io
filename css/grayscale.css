@@ -191,7 +191,7 @@ font-family: 'IBM Plex Mono', monospace;
   background: transparent;
     position: absolute;
     bottom:3vh;
-    left:45vw;
+    margin-left: -3%;
 
 }
 
