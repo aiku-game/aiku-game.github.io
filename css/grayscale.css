@@ -234,6 +234,21 @@ ul{
   border: 1px solid black;
   background-color: transparent;
 }
+.btn-white{
+    color: white;
+  border: 1px solid white;
+  background-color: transparent;
+    margin-bottom:25px;
+ 
+}
+.btn-white:focus, .btn-white:hover {
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+
+
+}
 
 .btn-default:focus, .btn-default:hover {
   color: white;
@@ -1733,3 +1748,47 @@ img::-moz-selection {
 
 
 }
+
+
+.feedback {
+  background-color : black;
+  border-radius: 4px;
+  border-color: #46b8da;
+  font-size:1.5vw;
+    
+
+}
+
+#mybutton {
+  bottom: 4px;
+  right: 10px;
+            z-index:200;
+  position: fixed;
+
+        animation: move-in-button 3s forwards;
+    animation-delay: 5s;
+    			
+    transform: translateX(1000px);
+
+
+
+}
+
+.fademovein{
+
+}
+
+
+@keyframes move-in-button{
+    
+    0%{
+			transform: translateX(1000px);
+        
+    }
+    100%{
+			transform: translateX(0px);
+
+    }
+    
+}
+
