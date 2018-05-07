@@ -52,7 +52,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: black;
 }
 
 a:focus, a:hover {
@@ -173,4 +173,14 @@ ul{
   top: 180px;
   left: 0;
      z-index: -999999;
+}
+
+
+.row p {
+    background-color:white;
+    width: 150px;
+    margin: 0 auto;
+    color: black;
+    border: 2px black solid;
+    border-radius: 20%;
 }
