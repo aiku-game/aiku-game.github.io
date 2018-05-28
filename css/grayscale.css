@@ -1782,8 +1782,16 @@ img::-moz-selection {
 
 }
 
+#getSource {
+    
+    position:fixed;
+    z-index: 100000;
+    top: 20px;
+    right:10px;
+    
+}
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
 .feedback {
   background-color : black;
   border-radius: 4px;
@@ -1804,10 +1812,16 @@ img::-moz-selection {
     transform: translateX(1000px);
 
 
-
 }
-
-
+#getSource {
+    
+    position:fixed;
+    z-index: 10000;
+    top:auto;
+    bottom: 0;
+    right:auto;
+    
+}
     
 }
 
@@ -1828,4 +1842,5 @@ img::-moz-selection {
     }
     
 }
+
 
